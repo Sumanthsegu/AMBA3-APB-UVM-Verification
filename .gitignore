@@ -1,0 +1,14 @@
+*.jou
+*.log
+*.str
+*.wdb
+*.vcd
+*.tmp
+.xil/
+.cache/
+.sim/
+runs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
