@@ -134,6 +134,9 @@ AMBA3-APB-UVM-Verification/
 
 Use a SystemVerilog/UVM-capable simulator. UVM invocation differs between Vivado/XSim releases and other simulators. Add the files in `sim/filelist.f`, compile with UVM enabled, and run `apb_smoke_test`. Inspect UVM logs, scoreboard results and coverage.
 
+## Simulation Status:
+Behavioral simulation completed successfully in Xilinx Vivado 2023.1 with 0 UVM errors, 0 warnings, and 0 fatal errors.
+
 ## Interview Summary
 
 > I worked on verification of an AMBA-3 APB-based design using UVM. I developed the verification plan by studying APB operating states and protocol signals, created tests for normal, corner and error scenarios, and used constrained-random stimulus, scoreboard checking and coverage to evaluate verification completeness.
